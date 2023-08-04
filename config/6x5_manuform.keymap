@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     combos {
@@ -63,7 +62,7 @@
 
             bindings = <
        &kp GRAVE     &kp N1         &kp N2  &kp N3          &kp N4   &kp N5          &kp N6        &kp N7         &kp N8          &kp N9            &kp N0          &kp EQUAL
-     &kt LA(TAB)      &kp Q          &kp W   &kp E           &kp R    &kp T           &kp Y         &kp U          &kp I           &kp O             &kp P          &kp MINUS
+       &kp LG(V)      &kp Q          &kp W   &kp E           &kp R    &kp T           &kp Y         &kp U          &kp I           &kp O             &kp P          &kp MINUS
        &kp LG(D)      &kp A          &kp S   &kp D           &kp F    &kp G           &kp H         &kp J          &kp K           &kp L          &kp SEMI            &kp SQT
 &kp LEFT_CONTROL      &kp Z          &kp X   &kp C           &kp V    &kp B           &kp N         &kp M      &kp COMMA         &kp DOT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
        &kp SPACE  &kp SLASH  &kp BACKSLASH   &mo 1  &kp LEFT_SHIFT  &kp TAB  &kp DOWN_ARROW  &kp UP_ARROW  &kp BACKSPACE  &kp LEFT_ARROW           &kp DEL    &kp RIGHT_ARROW
