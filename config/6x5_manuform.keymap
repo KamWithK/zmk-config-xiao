@@ -38,9 +38,14 @@
             key-positions = <51 47>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <56 59>;
+        next {
+            bindings = <&kp C_NEXT>;
+            key-positions = <51 59>;
+        };
+
+        previous {
+            bindings = <&kp C_PREVIOUS>;
+            key-positions = <51 57>;
         };
     };
 
@@ -56,11 +61,11 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-       &kp GRAVE  &kp N1  &kp N2  &kp N3          &kp N4   &kp N5          &kp N6        &kp N7         &kp N8          &kp N9            &kp N0          &kp EQUAL
-        &kp HOME   &kp Q   &kp W   &kp E           &kp R    &kp T           &kp Y         &kp U          &kp I           &kp O             &kp P          &kp MINUS
-         &kp END   &kp A   &kp S   &kp D           &kp F    &kp G           &kp H         &kp J          &kp K           &kp L          &kp SEMI            &kp SQT
-&kp LEFT_CONTROL   &kp Z   &kp X   &kp C           &kp V    &kp B           &kp N         &kp M      &kp COMMA         &kp DOT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-       &kp SPACE   &mo 0   &mo 1   &mo 1  &kp LEFT_SHIFT  &kp TAB  &kp DOWN_ARROW  &kp UP_ARROW  &kp BACKSPACE  &kp LEFT_ARROW           &kp DEL    &kp RIGHT_ARROW
+       &kp GRAVE     &kp N1         &kp N2  &kp N3          &kp N4   &kp N5          &kp N6        &kp N7         &kp N8          &kp N9            &kp N0          &kp EQUAL
+     &kp LA(TAB)      &kp Q          &kp W   &kp E           &kp R    &kp T           &kp Y         &kp U          &kp I           &kp O             &kp P          &kp MINUS
+       &kp LG(D)      &kp A          &kp S   &kp D           &kp F    &kp G           &kp H         &kp J          &kp K           &kp L          &kp SEMI            &kp SQT
+&kp LEFT_CONTROL      &kp Z          &kp X   &kp C           &kp V    &kp B           &kp N         &kp M      &kp COMMA         &kp DOT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+       &kp SPACE  &kp SLASH  &kp BACKSLASH   &mo 1  &kp LEFT_SHIFT  &kp TAB  &kp DOWN_ARROW  &kp UP_ARROW  &kp BACKSPACE  &kp LEFT_ARROW           &kp DEL    &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -79,7 +84,7 @@
           &kp F1             &kp F2             &kp F3        &kp F4        &kp F5         &kp F6         &kp F7       &kp F8           &kp F9   &kp F10     &kp F11    &kp F12
        &kp GRAVE           &kp EXCL             &kp AT      &kp HASH    &kp DOLLAR      &kp PRCNT      &kp CARET     &kp AMPS  &kp KP_MULTIPLY  &kp LPAR    &kp RPAR  &kp TILDE
 &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG   &bootloader     &kp SLASH  &kp BACKSLASH         &trans    &kp MINUS      &kp KP_PLUS  &kp LBRC    &kp RBRC   &kp PIPE
-  &kp LEFT_SHIFT             &trans             &trans        &trans        &trans         &trans  &kp PAGE_DOWN  &kp PAGE_UP        &kp ENTER  &kp HOME  &kp ESCAPE    &kp END
+   &kp LA(SPACE)             &trans             &trans        &trans        &trans         &trans  &kp PAGE_DOWN  &kp PAGE_UP        &kp ENTER  &kp HOME  &kp ESCAPE    &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
