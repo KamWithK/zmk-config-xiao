@@ -35,7 +35,7 @@
 
         question_mark {
             bindings = <&kp QUESTION>;
-            key-positions = <51 47>;
+            key-positions = <51 34>;
         };
 
         next {
