@@ -18,16 +18,6 @@
             key-positions = <51 48>;
         };
 
-        previous {
-            bindings = <&kp K_PREVIOUS>;
-            key-positions = <58 57>;
-        };
-
-        next {
-            bindings = <&kp K_NEXT>;
-            key-positions = <56 59>;
-        };
-
         vol_up {
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <55 51>;
@@ -46,6 +36,11 @@
         question_mark {
             bindings = <&kp QUESTION>;
             key-positions = <51 47>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <56 59>;
         };
     };
 
